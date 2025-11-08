@@ -3,49 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="ZetStudios GitHub Pages" />
-    <title>ZetStudios</title>
+    <meta
+      name="description"
+      content="Zet Studios - Animation Studio from Paraguay"
+    />
+    <title>Zet Studios | Animation from Paraguay</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
   </head>
   <body>
     <header>
       <nav>
-        <div class="logo">ZetStudios</div>
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="logo">Zet Studios</div>
+        <a href="#gallery" class="nav-link">Gallery</a>
       </nav>
     </header>
 
     <main>
+      <!-- Hero Section -->
       <section id="home" class="hero">
-        <h1>Welcome to ZetStudios</h1>
-        <p>Creating amazing digital experiences</p>
+        <div class="hero-content">
+          <h1 class="hero-title">Zet Studios</h1>
+          <p class="hero-subtitle">Animation Studio from Paraguay</p>
+          <div class="scroll-indicator">
+            <span>↓</span>
+          </div>
+        </div>
       </section>
 
-      <section id="about">
-        <h2>About Us</h2>
-        <p>Your content here</p>
+      <!-- Studio Presentation -->
+      <section id="studio" class="studio-presentation">
+        <div class="container">
+          <div class="studio-content">
+            <p class="studio-text">
+              Zet Studios is a passionate animation studio based in Paraguay,
+              dedicated to bringing stories to life through the art of
+              animation.
+            </p>
+            <p class="studio-text">
+              We create compelling narratives that resonate with audiences,
+              combining traditional storytelling with cutting-edge animation
+              techniques.
+            </p>
+            <p class="studio-text">
+              Our mission is to showcase Paraguayan creativity and talent to the
+              world, one frame at a time.
+            </p>
+          </div>
+        </div>
       </section>
 
-      <section id="services">
-        <h2>Our Services</h2>
-        <p>Your content here</p>
-      </section>
-
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Your content here</p>
+      <!-- Gallery Section -->
+      <section id="gallery" class="gallery-section">
+        <div class="container">
+          <h2 class="gallery-title">Our Work</h2>
+          <div id="gallery-grid" class="gallery-grid">
+            <!-- Gallery items will be dynamically loaded here -->
+            <div class="loading">Loading gallery...</div>
+          </div>
+        </div>
       </section>
     </main>
 
+    <!-- Video Modal -->
+    <div id="video-modal" class="modal">
+      <div class="modal-overlay"></div>
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close modal">&times;</button>
+        <div class="modal-header">
+          <h3 id="modal-title" class="modal-video-title"></h3>
+        </div>
+        <div class="modal-body">
+          <div id="video-container" class="video-container">
+            <!-- YouTube embed will be inserted here -->
+          </div>
+          <p id="modal-description" class="modal-description"></p>
+          <a
+            id="youtube-link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="youtube-button"
+          >
+            Watch on YouTube
+          </a>
+        </div>
+      </div>
+    </div>
+
     <footer>
-      <p>&copy; 2025 ZetStudios. All rights reserved.</p>
+      <p>&copy; 2025 Zet Studios. All rights reserved.</p>
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/gallery.js"></script>
   </body>
 </html>

@@ -1,0 +1,64 @@
+{
+  "animations": [
+    {
+      "id": "001",
+      "title": "La Guerra Grande",
+      "poster": "assets/images/poster_la-guerra-grande.jpg",
+      "youtubeId": "",
+      "type": "full",
+      "releaseYear": "",
+      "description": "An epic historical animation from Paraguay."
+    },
+    {
+      "id": "002",
+      "title": "La Pelota Pin Pon",
+      "poster": "assets/images/poster_la-pelota-pin-pon.jpg",
+      "youtubeId": "",
+      "type": "full",
+      "releaseYear": "",
+      "description": "A captivating animated story."
+    },
+    {
+      "id": "003",
+      "title": "Leyenda Viva",
+      "poster": "assets/images/poster_leyenda-viva.jpg",
+      "youtubeId": "",
+      "type": "full",
+      "releaseYear": "",
+      "description": "Experience the living legend."
+    },
+    {
+      "id": "004",
+      "title": "No Están Solos - Capítulo 1",
+      "poster": "assets/images/poster_no-estan-solos-cap-1.jpg",
+      "youtubeId": "",
+      "type": "series",
+      "series": "No Están Solos",
+      "episode": 1,
+      "releaseYear": "",
+      "description": "The first chapter of an emotional series."
+    },
+    {
+      "id": "005",
+      "title": "No Están Solos - Capítulo 2",
+      "poster": "assets/images/poster_no-estan-solos-cap-2.jpg",
+      "youtubeId": "",
+      "type": "series",
+      "series": "No Están Solos",
+      "episode": 2,
+      "releaseYear": "",
+      "description": "The story continues in chapter 2."
+    },
+    {
+      "id": "006",
+      "title": "No Están Solos - Capítulo 3",
+      "poster": "assets/images/poster_no-estan-solos-cap-3.jpg",
+      "youtubeId": "",
+      "type": "series",
+      "series": "No Están Solos",
+      "episode": 3,
+      "releaseYear": "",
+      "description": "The thrilling conclusion of the series."
+    }
+  ]
+}
